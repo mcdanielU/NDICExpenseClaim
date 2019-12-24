@@ -1,0 +1,20 @@
+.vicky-logo /*in css you use . and the class name to call an. Our page is on css thats why we can use this comment*/
+{
+	height: 50px;
+	width:  60px;
+	float: left;
+	/*float has top and bottom as well.*
+	Margin is the space between elements, margin can be used in place of float because we can specify pixels
+	if you want your color to take precedence in css you use !important but remember this is css*/
+	margin-right:10px;
+}
+	.navbarcustom
+	{
+		    background-color: rgba(51, 19, 33, 1) !important;
+
+	} 
+	.buttonbee
+	{
+		background-color: rgba(51, 19, 33, 1) !important;/* buttonbee is a class i created in my index pg so i could change the button's color*/
+
+	}

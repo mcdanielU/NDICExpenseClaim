@@ -1,0 +1,103 @@
+body
+	{
+	
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	}
+
+.kiki-logo 
+	{
+	height: 150px;
+	width:  180px;
+	float: left;
+	margin-right:10px;
+	}
+
+.navbarcustom
+	{	
+		  height: 160px;
+		  background-color:transparent!important;
+
+	} 
+.main-body
+{
+	margin-top: 150px;
+}
+.main-heading
+{
+	color: darkblue; 
+	text-decoration: underline; 
+	text-align:center;
+	margin-top:80px;
+}
+
+.main-table
+{
+	vertical-align:bottom;
+	margin:30px 5px 0px;
+}
+
+.main-sign
+{
+	margin-top:40px;
+}
+/*div
+	{
+	width: 500px; 
+	margin: 0 auto; 
+	padding: 0;// padding is the space between your content and 
+	the borders inorder to get rid of it, you should always set your padding to zero
+	}*/
+
+
+img
+	{
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+  		width: 40%;
+ 		height: 100%;
+	}
+
+
+input[type=text]
+ 	{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+	}
+
+table 
+	{
+ 
+  border-collapse: collapse;
+	}
+
+table, th, td 
+	{
+  border: 1px solid blue;
+	} 
+
+.border
+	{
+   width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-top: 2px solid blue;
+	}
+.top
+{
+  float: right;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-top: 2px solid blue;
+}

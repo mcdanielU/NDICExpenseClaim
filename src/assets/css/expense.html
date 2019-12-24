@@ -1,0 +1,60 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Student List</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/DataTables/datatables.min.css" />
+      <link rel="stylesheet" href="assets/css/expensee.css" />
+      <!-- there is an order that the arangement should follow, you have to call bootstrap first because it is what brings about our designs or else when you try to load your pages they might end up looking one dimensional.
+      Next you would write the path that they are coming from.
+      The custom css is just so we can link our design page-->
+
+  
+</head>
+<body>
+<!--12 boxes for grid shared between the row and column
+This stylesheet is a neccessity because it makes our font more stylish and not basic-->
+<!--div class= "container fluid"--><!--/div-->
+
+
+        
+</nav> <!--block level elements, takes alot of space-->
+  <h1 style="text-align: center;">Student List</h1>
+<hr/>
+
+
+<table class="table"><!--td:table data, tr:table row, thead:table head
+     class table helps our table look beter
+     class striped makes our tables have two colors-->
+      <thead>
+        <td>published</td>
+        <td>purpose</td>
+        <td>Director</td>
+        <td>Audit</td>
+        <td>finance</td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Time</td>
+           <td>Official</td>
+            <td>Pending</td>
+             <td>Withheld</td>
+             <td>Rejected</td>
+        </tr>
+      </tbody> 
+  </table>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script><!-- your script tags and boostrap links help   to give life to your page-->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/DataTables/datatables.min.js" /></script>
+  <script>
+    $(document).ready(function()
+    {
+      $('#dtSample').DataTable();
+    });
+    </script>
+
+</body>
+</html>
